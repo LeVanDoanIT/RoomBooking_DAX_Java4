@@ -1,0 +1,53 @@
+body {
+	background: #eee;
+}
+
+.card {
+	box-shadow: 0 20px 27px 0 rgb(0 0 0/ 5%);
+}
+
+.card {
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	min-width: 0;
+	word-wrap: break-word;
+	background-color: #fff;
+	background-clip: border-box;
+	border: 0 solid rgba(0, 0, 0, .125);
+	border-radius: 1rem;
+}
+
+.card-body {
+	-webkit-box-flex: 1;
+	-ms-flex: 1 1 auto;
+	flex: 1 1 auto;
+	padding: 1.5rem 1.5rem;
+}
+
+.bank-card {
+	/* width: 100%;
+            max-width: 200px;
+            height: auto; */
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	padding: 10px;
+	margin-bottom: 10px;
+	cursor: pointer;
+	transition: transform 0.2s ease-in-out;
+}
+
+.bank-card:hover {
+	transform: scale(1.05);
+}
+
+.bank-card.selected {
+	border-color: #007bff;
+	background-color: #e9ecef;
+}
+
+.bank-logo {
+	width: 100%;
+	max-width: 150px;
+	height: auto;
+}
